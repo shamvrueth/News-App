@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background: #eee;
+    /* padding: 0 16px;
+    margin: 0 auto;
+    padding: 25px; */
+    text-align:center;
+    padding-bottom: 20px;
+}
+
+.card{
+    display: inline-block;
+    background-color: #fff;
+    gap:50px;
+    width:360px;
+    height:570px;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    position: relative;
+    margin-top: 50px;
+}
+
+img{
+    border-radius: 7px 7px 0 0;
+    width: 358px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.bottom{
+    padding: 10px;
+    position: absolute;
+    top: 210px;
+}
+h2{
+    font-size: 1.5em;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+header{
+    background-color: #000;
+    text-align: left;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1{
+    color:#fff;
+    font-weight: 200;
+
+}
+
+form{
+    width: 300px;
+}
+
+input, button{
+    height: 45px;
+}
+
+.forms{
+    display: flex;
+    gap: 20px;
+}
+
+/* .down{
+    position: absolute;
+    bottom: 1px;
+    left: 150px;
+}
+ */
